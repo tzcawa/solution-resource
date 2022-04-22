@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="210">
+    <style>
+        text{
+            font-size:28px;
+        }
+    </style>
+    <g>
+        <text x="50" y="70">
+            2
+            <animate repeatCount="indefinite" attributeName="x" dur="52s" calcMode="spline"
+            values="90;90;50;50"
+            keyTimes="0;0;0.00961538;1"
+            keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s" calcMode="spline"
+            values="0;0;1;1"
+            keyTimes="0;0;0.00961538;1"
+            keySplines="0 0 0 0;0 0 0 0;0 0 0 0"/>
+        </text>
+        <text x="90" y="70">
+            3
+            <animate repeatCount="indefinite" attributeName="x" dur="52s" calcMode="spline"
+            values="130;130;90;90"
+            keyTimes="0;0.00192307;0.01153846;1"
+            keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s" calcMode="spline"
+            values="0;0;1;1"
+            keyTimes="0;0.00192307;0.01153846;1"
+            keySplines="0 0 0 0;0 0 0 0;0 0 0 0"/>
+        </text>
+        <text x="130" y="70">
+            1
+            <animate repeatCount="indefinite" attributeName="x" dur="52s" calcMode="spline"
+            values="170;170;130;130"
+            keyTimes="0;0.00384615;0.01346153;1"
+            keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s" calcMode="spline"
+            values="0;0;1;1"
+            keyTimes="0;0.00384615;0.01346153;1"
+            keySplines="0 0 0 0;0 0 0 0;0 0 0 0"/>
+        </text>
+        <text x="170" y="70">
+            5
+            <animate repeatCount="indefinite" attributeName="x" dur="52s" calcMode="spline"
+            values="210;210;170;170"
+            keyTimes="0;0.00576923;0.01538461;1"
+            keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s" calcMode="spline"
+            values="0;0;1;1"
+            keyTimes="0;0.00576923;0.01538461;1"
+            keySplines="0 0 0 0;0 0 0 0;0 0 0 0"/>
+        </text>
+        <text x="210" y="70">
+            4
+            <animate repeatCount="indefinite" attributeName="x" dur="52s" calcMode="spline"
+            values="250;250;210;210"
+            keyTimes="0;0.00769230;0.01730769;1"
+            keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s" calcMode="spline"
+            values="0;0;1;1"
+            keyTimes="0;0.00769230;0.01730769;1"
+            keySplines="0 0 0 0;0 0 0 0;0 0 0 0"/>
+        </text>
+        <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+        values="1;1;0"
+        keyTimes="0;0.98076923;1"/>
+    </g>
+    <line x1="125" x2="125" y1="80" y2="80" stroke="#f00" stroke-width="3">
+        <animate repeatCount="indefinite" attributeName="x2" dur="52s" calcMode="spline"
+        values="125;125;150;150;230;230"
+        keyTimes="0;0.01923076;0.02884615;0.59615384;0.60576923;1"
+        keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+        <animate repeatCount="indefinite" attributeName="x1" dur="52s" calcMode="spline"
+        values="125;125;45;45"
+        keyTimes="0;0.21153846;0.22115384;1"
+        keySplines="0 0 0 0;0.25 0.1 0.25 1;0 0 0 0"/>
+        <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+        values="1;1;0"
+        keyTimes="0;0.98076923;1"/>
+    </line>
+    <g transform="translate(40,140)">
+        <text x="-10" style="font-size:11px;">
+            长度为分别为1、2、3、4、5    的区间最大Mex值：
+        </text>
+        <text x="10" y="40">
+            0
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#000;#000;#f00;#f00"
+            keyTimes="0;0.13461538;0.14423076;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="inline;none;none"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="10" y="40">
+            2
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000"
+            keyTimes="0;0.14423076;0.15384615;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;inline"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="50" y="40">
+            0
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#000;#000;#f00;#f00"
+            keyTimes="0;0.13461538;0.14423076;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="inline;none;none"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="50" y="40">
+            2
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000"
+            keyTimes="0;0.14423076;0.15384615;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;inline"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="90" y="40">
+            0
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#000;#000;#f00;#f00"
+            keyTimes="0;0.13461538;0.14423076;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="inline;none;none"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="90" y="40">
+            2
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000;#f00;#f00"
+            keyTimes="0;0.14423076;0.15384615;0.32692307;0.33653846;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none"
+            keyTimes="0;0.14423076;0.33653846;1"/>
+        </text>
+        <text x="90" y="40">
+            3
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000；;#f00;#f00"
+            keyTimes="0;0.33653846;0.34615384;0.51923076;0.52884615;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none;"
+            keyTimes="0;0.33653846;0.52884615;1"/>
+        </text>
+        <text x="90" y="40">
+            4
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000"
+            keyTimes="0;0.52884615;0.53846153;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none"
+            keyTimes="0;0.52884615;1"/>
+        </text>
+        <text x="130" y="40">
+            0
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#000;#000;#f00;#f00"
+            keyTimes="0;0.13461538;0.14423076;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="inline;none;none"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="130" y="40">
+            2
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000;#f00;#f00"
+            keyTimes="0;0.14423076;0.15384615;0.32692307;0.33653846;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none"
+            keyTimes="0;0.14423076;0.33653846;1"/>
+        </text>
+        <text x="130" y="40">
+            3
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000；;#f00;#f00"
+            keyTimes="0;0.33653846;0.34615384;0.51923076;0.52884615;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none;"
+            keyTimes="0;0.33653846;0.52884615;1"/>
+        </text>
+        <text x="130" y="40">
+            4
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000"
+            keyTimes="0;0.52884615;0.53846153;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none"
+            keyTimes="0;0.52884615;1"/>
+        </text>
+        <text x="170" y="40">
+            0
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#000;#000;#f00;#f00"
+            keyTimes="0;0.13461538;0.14423076;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="inline;none;none"
+            keyTimes="0;0.14423076;1"/>
+        </text>
+        <text x="170" y="40">
+            2
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000;#f00;#f00"
+            keyTimes="0;0.14423076;0.15384615;0.32692307;0.33653846;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none"
+            keyTimes="0;0.14423076;0.33653846;1"/>
+        </text>
+        
+        <text x="170" y="40">
+            3
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000；;#f00;#f00"
+            keyTimes="0;0.33653846;0.34615384;0.51923076;0.52884615;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none;"
+            keyTimes="0;0.33653846;0.52884615;1"/>
+        </text>
+        <text x="170" y="40">
+            4
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000;#f00;#f00"
+            keyTimes="0;0.52884615;0.53846153;0.71153846;0.72115384;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none"
+            keyTimes="0;0.52884615;0.72115384;1"/>
+        </text>
+        <text x="170" y="40">
+            5
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000;#f00;#f00"
+            keyTimes="0;0.72115384;0.73076923;0.90384615;0.91346153;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none;none"
+            keyTimes="0;0.72115384;0.91346153;1"/>
+        </text>
+        <text x="170" y="40">
+            6
+            <animate repeatCount="indefinite" attributeName="fill" dur="52s"
+            values="#f00;#f00;#000;#000"
+            keyTimes="0;0.91346153;0.92307692;1"/>
+            <animate repeatCount="indefinite" attributeName="display" dur="52s"
+            values="none;inline;none"
+            keyTimes="0;0.91346153;1"/>
+        </text>
+        <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.13461538;0.14423076;0.98076923;1;1"/>
+    </g>
+    <g>
+        <text x="40" y="30" style="font-size:15px;">
+            为了包含1，区间长度至少为1。
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.02884615;0.03846153;0.21153846;0.22115384;1"/>
+        </text>
+        <g transform="translate(45,100)">
+            <text x="20" style="font-size:12px;">
+                因而只要区间长度不小于1，
+            </text>
+            <text x="0" y="15" style="font-size:12px;">
+                就可以包含1，其Mex值就可以达到2。
+            </text>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.07692307;0.08653846;0.21153846;0.22115384;1"/>
+        </g>
+    </g>
+    <g>
+        <text x="30" y="30" style="font-size:15px;">
+            为了包含1和2，区间长度至少为3。
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.22115384;0.23076923;0.40384615;0.41346153;1"/>
+        </text>
+        <g transform="translate(45,100)">
+            <text x="30" style="font-size:12px;">
+                因而只要区间长度不小于3，
+            </text>
+            <text y="15" style="font-size:12px;">
+                就可以包含1和2，Mex值即可达到3。
+            </text>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.26923076;0.27884615;0.40384615;0.41346153;1"/>
+        </g>
+    </g>
+    <g>
+        <text x="20" y="30" style="font-size:15px;">
+            为了包含1、2和3，区间长度至少为3。
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.41346153;0.42307692;0.59615384;0.60576923;1"/>
+        </text>
+        <g transform="translate(40,100)">
+            <text x="35" style="font-size:12px;">
+                因而只要区间长度不小于3，
+            </text>
+            <text y="15" style="font-size:12px;">
+                就可以包含1、2和3，Mex值即可达到4。
+            </text>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.46153846;0.47115384;0.59615384;0.60576923;1"/>
+        </g>
+    </g>
+    <g>
+        <text x="10" y="30" style="font-size:15px;">
+            为了包含1、2、3和4，区间长度至少为5。
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.60576923;0.61538461;0.78846153;0.79807692;1"/>
+        </text>
+        <g transform="translate(40,100)">
+            <text x="35" style="font-size:12px;">
+                因而只要区间长度不小于5，
+            </text>
+            <text y="15" style="font-size:12px;">
+                就可以包含1、2、3和4，Mex值即可达到5。
+            </text>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.65384615;0.66346153;0.78846153;0.79807692;1"/>
+        </g>
+    </g>
+    <g>
+        <text x="20" y="30" style="font-size:15px;">
+            为了包含12345，区间长度至少为5。
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.79807692;0.80769230;0.98076923;1;1"/>
+        </text>
+        <g transform="translate(40,100)">
+            <text x="35" style="font-size:12px;">
+                因而只要区间长度不小于5，
+            </text>
+            <text y="15" style="font-size:12px;">
+                就可以包含12345，Mex值即可达到6。
+            </text>
+            <animate repeatCount="indefinite" attributeName="opacity" dur="52s"
+            values="0;0;1;1;0;0"
+            keyTimes="0;0.84615384;0.85576923;0.98076923;1;1"/>
+        </g>
+    </g>
+</svg>
